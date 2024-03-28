@@ -12,7 +12,7 @@ import { configure } from 'vee-validate';
 import axios from 'axios';
 // при пустом url запросы автоматически идут на исходный сервер,
 // поэтому коренной рут по сути не нужен
-axios.defaults.baseURL = 'http://0.0.0.0:8000/v1';
+axios.defaults.baseURL = 'http://217.25.88.238:8000/v1';
 
 
 const app = createApp(App)
